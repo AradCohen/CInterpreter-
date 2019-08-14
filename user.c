@@ -8,13 +8,13 @@ int main()
     
     int x = 3;
     
-    char * s1 = "arad";
+    char *s1 = "aaa";
     
-    char * s2 = "arae";
+    char *s2 = "bbb";
     
     int cmp = strcmp(s1, s2);
     
-    printf("%d\n", cmp);
+    printf("%d", cmp);
     
     return 0;
 }
